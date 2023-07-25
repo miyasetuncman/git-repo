@@ -18,6 +18,8 @@ class ViewController: UIViewController, SendImageNameProtocol {
         let img = UIImage(named: imgName)
         imgView2.image = img
     }
+    var me = 12
+    
     
 
     @IBOutlet weak var button: UIButton!
